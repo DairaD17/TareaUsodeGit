@@ -1,2 +1,6 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+#include <stdio.h>
+void main(){
+int num;
+printf("Escribe tu numero: ");
+scanf_s("%i", num);
+
