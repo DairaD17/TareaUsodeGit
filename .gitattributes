@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
 int num;
-printf("Escribe tu numero: ");
-scanf_s("%i", num);
+  printf("Escribe tu numero: ");
+  scanf("%i", num);
 if(num<0){
   printf("El numero es negativo");
 } else if(num>0){
